@@ -1,10 +1,6 @@
 const mongoose = require("mongoose");
 
 const departamentoSchema = mongoose.Schema({
-    id: {
-        type: String,
-        required: true
-    },
     nombre: {
         type: String,
         required: true

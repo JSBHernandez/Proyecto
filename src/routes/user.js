@@ -1,8 +1,5 @@
 const express = require("express");
 const userSchema = require("../models/user");
-const bcryptjs = require("bcryptjs");
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
 
 const router = express.Router();
 
